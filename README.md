@@ -6,7 +6,7 @@ on a Windows 10 64-bit system.
 3. The .NET workload was also installed, but it shouldn't be needed for the usbview application
 4. The solution (.sln) from the SDK example on GitHub was imported, but build did not succeed without following changes
 5. The project was retargeted to Windows SDK 10.0.15063.0
-6. The build options on the individual C files were fixed to eliminate build conflicts among the options
+6. The compiler flags on the individual C files were fixed to eliminate conflicts among the options
 
 
 USBView sample application
